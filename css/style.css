@@ -1,0 +1,51 @@
+body{
+    overflow-x: hidden;
+}
+.navbar-brand {
+    border: 1px solid;
+}
+.navbar-brand:hover{
+    background-color: gainsboro;
+}
+.nav-link:hover{
+    color: black;
+    border: 1px solid;
+    background-color: gainsboro;
+
+}
+.landing {
+    height: 100%;
+    background-color: darkviolet;
+}
+
+.row span {
+    color: #1E90FF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.card:hover{
+    transform: translateX(30px);
+    cursor: pointer;
+}
+.p-color {
+    color: #1E90FF;
+}
+.langages{
+    grid-template-columns: auto auto auto;
+}
+@media screen and (max-width:992px) {
+    .langages{
+        grid-template-columns: auto auto;
+    }
+    .image_one{
+        width: 205%;
+    }
+}
+@media screen and (max-width:768px) {
+    .langages{
+        grid-template-columns: auto;
+    }
+    .image_one{
+        width: 100%;
+    }
+}
